@@ -504,10 +504,14 @@
   margin-left: 20px;
   background-color: white;
 }
+#projectphoto{
+    width:100% ; 
+    height:300px;
+}
 
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  transform: scale(1.2)
+  transform: scale(1.3)
 }
 
 .container {
@@ -518,9 +522,12 @@
     .card {
       box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
       transition: 0.3s;
-      width: 30%;
-      margin-left: 20px;
+      margin-top: 20px;
       background-color: white;
+      width: 800px;
+      margin-left: 680px;
+      font-size: 40px;
+     
     }
     
     .card:hover {
@@ -530,4 +537,10 @@
     
     .container {
       padding: 2px 16px;
-    }}
+    }
+    #projectphoto{
+        width:800px ; 
+        height:500px;
+    }
+    
+}
